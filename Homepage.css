@@ -1,0 +1,148 @@
+
+/* COTA and Hyper Fonts here */
+@font-face {
+    font-family: COTA;
+    src: url(COTA.otf);
+}
+
+@font-face {
+    font-family:Hyper;
+    src: url(Hyper\ Combo.otf);
+}
+
+/* Trying to replicate something I saw on the TEKKEN 8 website. If this works, I'm a certified genius.
+
+Update - I am not a certified genius
+*/
+/* body {
+    background-image: url(COTAstream-StaffRoll\ -\ Trim.gif);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: relative;
+    
+}
+
+/* #wallpaper {
+    background-image: url(COTAstream-StaffRoll\ -\ Trim.gif);
+    width: 980;
+    background-repeat: no-repeat;
+    position: fixed;
+    
+} */
+
+
+.Navbar {
+    font-family: COTA;
+    letter-spacing: 4;
+}
+
+.Heading {
+    background-color: rgba(18,26,124,255);
+} 
+
+.button {
+    font-family: COTA;
+    text-decoration: none;
+}
+
+.button a {
+    padding: 20px 20px;
+    text-decoration: None;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+/* hailmerry attempt to seperate the video and image */
+/* .inline-block {
+    display: inline-block;
+} */
+
+/* #container {
+    height: 100%;
+    width: 100%;
+     overflow: auto;
+    position: absolute;
+} */
+
+
+#Xcotalogo {
+    float: left;
+    bottom: 50px;
+}
+
+/* Note to self: remember to not put spaces in the ID or class names or it breaks your code and leaves you scratching your head for 30mins. Use - */
+#Intro{
+    position: relative;
+    left: 300px;
+    top: 15px;
+    display: flex;
+}
+
+
+/* This took forever to properly adjust. Note to self, make div the ID you are editing not the section */
+#second {
+    background-color: #58007c ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Xmen-left {
+    width: 853px;
+    height: auto;
+}
+
+#Bad-right {
+    width: 839px;
+    height: auto;
+}
+
+h1, h2 {
+    font-family: Cota;
+}
+    
+
+.text {
+    font-family: Hyper;
+    text-align: center;
+    margin: 0 20px ;
+    opacity: 1;
+}
+
+#main {
+    background: linear-gradient(#58007c, #c4155a);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main img{
+    border: 3px solid black;
+}
+
+/* trying to align this more to the right but can't. Look into this */
+#fof {
+    float: left;
+    
+}
+
+.col-md-4 {
+    background-color: rgba(0, 0, 0, .5);
+    align-self: center;
+}
+
+
+#carouselExampleControls {
+    border-radius: 10px;
+}
+
+#end {
+    background-color: black;
+}
+
+.page-footer{
+    color: white;
+    background-color: black;
+}

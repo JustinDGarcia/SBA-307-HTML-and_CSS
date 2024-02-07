@@ -1,0 +1,40 @@
+@font-face {
+    font-family:Hyper;
+    src: url(Hyper\ Combo.otf);
+}
+
+@font-face {
+    font-family: COTA;
+    src: url(COTA.otf);
+}
+
+body {
+    background-image: url(COTA\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.Navbar {
+    font-family: COTA;
+    letter-spacing: 4;
+}
+
+.btTxt {
+    background-color: rgba(154,16,200,1) ;
+    border: 1px solid white;
+    transition: transform .7s;
+}
+
+.heading{
+    font-family: COTA;
+    color: white;
+    background-color: rgba(32,37,41,255);
+
+}
+
+.btTxt:hover{ 
+ transform: scale(1.5);
+}
+
+

@@ -1,0 +1,76 @@
+/* As the name says, this is to test if code works indiviually before I write it to the main pages and also to document it for myself for future use and education. Do not look in this page its an unorganized mess of bad syntax and code everywhere. THANK YOU */
+
+/* Test Gradient */
+body {
+    background-image: linear-gradient(#58007c, #c4155a);
+}
+
+@font-face {
+    font-family: COTA;
+    src: url(COTA.otf);
+}
+
+@font-face {
+    font-family:Hyper;
+    src: url(Hyper\ Combo.otf);
+}
+
+/* Bootstrap button CSS */
+/* .buttons
+{
+overflow:auto;
+text-align: center;
+font-size: 1.0em;
+font-weight: bold;
+line-height: 200%;
+
+}
+
+.buttons a
+{
+display: inline-block;
+width: 18em;
+height: 6em;
+margin-bottom: 0.5em;
+padding-top: .6em;
+padding-bottom: .6em;
+color: #fff;
+background-image: url(XCOTA_Cyclops_Portrait.png);
+border-radius: 5px;
+border: solid #cccccc 1px;
+box-shadow: 2px 2px 1px #888888;
+clear:right;
+float:right;
+} */
+
+/* .buttons a:active
+{
+box-shadow: 1px 1px 0px #888888;
+} */
+
+.TestCota {
+    font-family: Cota;
+    letter-spacing: 3px;
+}
+
+.TestHyper {
+    font-family: Hyper;
+}
+
+#BuyNow {
+    border: 1px solid black ;
+    background: black;
+    color: white;
+    padding: 14px 12px;
+    text-decoration: none;
+    font-family: Cota;
+ 
+}
+
+h1, h2 {
+    font-family: Cota;
+    letter-spacing: 3px;
+    color: white;
+}
+
+

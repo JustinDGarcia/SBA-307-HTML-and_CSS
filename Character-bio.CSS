@@ -1,0 +1,46 @@
+@font-face {
+    font-family:Hyper;
+    src: url(Hyper\ Combo.otf);
+}
+
+@font-face {
+    font-family: COTA;
+    src: url(COTA.otf);
+}
+
+body {
+    background-image: url(COTA\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    box-sizing: border-box;
+}
+
+.Navbar {
+    font-family: COTA;
+    letter-spacing: 4;
+}
+
+h2 {
+    font-family: COTA;
+}
+
+p {
+    font-family: Hyper;
+}
+
+.col-lg-4 {
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    background-color: rgb(59,59,59);
+    border-radius: 10px;
+    color: white;
+    min-height: 40vh;
+    position: relative;
+    left: 650px;
+    top: 175px;
+
+}

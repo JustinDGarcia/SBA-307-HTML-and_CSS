@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="Homepage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <section Class="Navbar">
+        <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+              <img src="xcota.ico" alt="Nav-logo">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Homepage.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Login.html">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Character-Select.html">Characters</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div>
+    </section>
+ 
+ <!-- A reminder to fix the positioning of the logo and Iframe -->
+    <!-- Heading -->
+    <section class="Heading">
+        <div class="container" id="Heading">
+            <!-- Container class from Bootstrap -->
+            <div id="Xcotalogo">
+                <img src="XCotA_logo.webp" alt="Xmen Children of the Atom Logo">
+            </div>
+            <!-- Link to the intro. Youtube actually makes this super easy to do thank goodness. -->
+            <div id="Intro">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cU00JNxM6w0?si=cJvWy2PROlCsaRfO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>  
+            <div Class="button">
+                <a href="Sad.html">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Row after heading. Trying to find a way to make the images side by side and have the text in the center. -->
+    <section id="second">
+        <Div class="container" id="second">
+            <img src="Good-left.png" alt="X men facing left" id="Xmen-left">
+        <div class="text">
+          <h2>The Mutant Era Has Come!</h2>
+          <p class="text">From the creators of Street Fighter 2! Based on the story line, X-men Fatal attraction! Fight your way to stop Magneto and his nefarious scheme in this bombastic fighting game!</p>
+        </div>
+        <img src="Evil-right.png" alt="Evil facing right" id="Bad-right">
+      </div>  
+    </section>
+
+    <!-- the following is going to be one section that will be divided using  dividers from bootstrap-->
+    <section id="main">
+        <div class="container" id="main">
+            <div class="row">
+                <hr class="divider">
+                <!-- The class will allow bootstrap to create a column for me easily using the grid system -->
+                <div class="col-md-4">
+                    <h1>
+                        Friend or Foe?
+                    </h1>
+                    <p class="text">
+                        Play between a colorful cast of famous X-men heroes and villians! All coming in with their own unique abilies and powers!
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img id="fof" src="FriendorFoe.PNG" alt="Wolverine vs Silver Sam" width="600">
+                </div>
+                <hr class="divider">
+                <div class="col-md-5">
+                    <img src="https://media1.tenor.com/m/BZPIfgZZRYoAAAAC/marvel-vs-capcom-marvel.gif" alt="Psylocke taunt" width="500">
+                </div>
+                <div class="col-md-4">
+                    <h1>
+                        Fight in Style!
+                    </h1>
+                    <p class="text">
+                        Powered by Capcom's powerhouse of an arcade board, CPS2, watch the characters come to life in a brand new way!
+                    </p>
+                </div>
+                <hr class="divider">
+                <div class="col-md-4">
+                    <h1>
+                        Combo is key!
+                    </h1>
+                    <p class="text">
+                        Lay a heroic smackdown on your opponents on the ground or take the fight to sky! Use special moves or unleash your most powerful move, your X move!
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img id="fof" src="COTAstream-StaffRoll-Trim-ezgif.com-video-to-gif-converter.gif" alt="Wolverine vs Silver Sam" width="600">
+                </div>
+                <hr class="divider">
+                <div>
+                    <h1>Fight in famous X-men locations! </h1>
+                </div>
+                <!-- Bootstrap carousel -->
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="DangerRoom.png" class="d-block w-100" alt="Danger Room">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Genosha.png" class="d-block w-100" alt="Genosha">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="MojoWorld.png" class="d-block w-100" alt="Mojo_World">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <hr class="divider">
+            </div>
+
+        </div>
+    </section>
+    <!-- Bootstrap footer -->
+    <section id="end">
+        <Div class="container" id="end">
+        <footer class="page-footer font-small blue">
+        <div class="footer-copyright text-center py-3">© Marvel and Capcom. Please don't sue me
+        </footer>
+    </div>
+</section>
+    </Div>
+    
+</div>    
+</body>
+</html>

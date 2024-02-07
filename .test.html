@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<!-- As the name says, this is to test if code works indiviually before I write it to the main pages and also to document it for myself for future use and education. Do not look in this page its an unorganized mess of bad syntax and code everywhere. THANK YOU -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>\
+    <link rel="stylesheet" href="test.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- navbar test. I totally messed up the code from Bootstrap somewhere along the way and it accidently gave me a hamburger menu but tbh I'm all for it. -->
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">X</a> -->
+          <img src="xcota.ico" alt="Nav-logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- test to make images into buttons -->
+    <div>
+      <a href="Homepage.html"><input type="image" src="XCOTA_Cyclops_Portrait.png" name="saveForm" class="btTxt submit" id="saveForm" width="30" height="30"/> </a>
+    </div>
+
+    <!-- test to put images and buttons on a grid -->
+    <center>
+
+        <table border="1" width="90%" class="buttons">
+       <tr>
+        <!-- Reminder to research how to make this into a button that opens up a hidden div box. -->
+       <td width="25%"><a href="Homepage.html"><input type="image" src="XCOTA_Cyclops_Portrait.png" name="saveForm" class="btTxt submit" id="saveForm" width="50%"/> </a> </td>
+
+       <td width="25%"><a href="http://www.google.com">Link2<br>goes<br>here</a></td>
+       <td width="25%"><a href="http://www.google.com">Link3<br>goes<br>here</a></td>
+       <td width="25%"><a href="http://www.google.com">Link4<br>goes<br>here</a></td>
+       </tr>
+       </table> 
+       
+       <p>
+       
+       <table border="1" width="90%" class="buttons">
+       <tr>
+       <td width="20%"><a href="http://www.google.com">Link1 goes here</a></td>
+       <td width="20%"><a href="http://www.google.com">Link2<br>goes<br>here</a></td>
+       <td width="20%"><a href="http://www.google.com">Link3<br>goes<br>here</a></td>
+       <td width="20%"><a href="http://www.google.com">Link4<br>goes<br>here</a></td>
+       <td width="20%"><a href="http://www.google.com">Link5<br>goes<br>here</a></td>
+         </table>
+       
+    </center>
+
+    <div class="TestCota">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere illo numquam harum exercitationem sequi ipsa beatae. In eveniet amet eum optio, soluta voluptatum repellat ut neque aperiam aliquam. Voluptatum?
+    </div>
+
+    <div class="TestHyper">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis reprehenderit delectus illo, harum provident nesciunt consectetur, ducimus ullam reiciendis, nam qui. Laboriosam nemo maxime officiis ipsa, quo fugit molestiae tenetur!
+
+    </div>
+
+    <!-- Experimenting with the buy now button -->
+    <Div class="buttons" id="BuyNow">
+        <a href="xcota.ico">Buy now</a>
+    </Div>
+
+    <!-- test gif and sizing. The gif looks bad ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh I hate you adobe -->
+    <!-- <Div>
+        <img src="COTAstream-StaffRoll.gif" alt="gif" width="1080">
+    </Div> -->
+
+
+    <h1>The Mutant Era Has Come! </h1>
+    <h1>Combo is the Key!</h1>
+    <h1>Friend or Foe?</h1>
+    <h1>Fight with Style!</h1>
+
+
+    <!-- Test to see if I can do a side by side using Grid system. It did not work -->
+    <div class="container">
+        <div class="row">
+          <div class="col-lg">
+            <img src="Good-left.png" alt="Xmen" width="100px">
+          </div>
+          <div class="col-lg">
+            hello
+          </div>
+          <div class="col-lg">
+            <img src="Evil-right.png" alt="bad guys" width="100px">
+          </div>
+        </div>
+      </div>
+
+</body>
+</html>
